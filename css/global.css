@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 43px;
+}
+.nav-item a,
+.nav-item a svg {
+  transition: all 1s ease-in-out;
+}
+.nav-item a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  /* Button title */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+  text-align: center;
+  letter-spacing: -0.006em;
+  /* Dark Gray / Dark Gray 2 */
+  color: #252c32;
+}
+.nav-item a:hover,
+.nav-item a:hover svg {
+  color: #0168ff;
+  fill: #0168ff;
+}
+
+.gradient {
+  height: 1126.12px;
+  background: linear-gradient(
+    359.02deg,
+    rgba(218, 218, 218, 0) 0.83%,
+    rgba(0, 101, 249, 0.2) 57.15%,
+    rgba(255, 255, 255, 0.2) 96.53%
+  );
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 78px;
+  border-bottom: 1px solid #e5e9eb;
+}
+
+.navbar .notifications {
+  display: flex;
+  align-items: center;
+}
+
+.main header {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-image: url("../images/habg.png");
+  background-position: center;
+}
+
+.header_block {
+  padding-block: 90px;
+  margin-inline: 75px;
+  display: flex;
+  gap: 20px;
+}
+
+.header_block .header_right {
+}
+
+.header_block .header_left {
+  min-width: 513px;
+}
+
+.header_block .header_left h1 {
+  margin-bottom: 0;
+  color: #18181b;
+  font-size: 58px;
+  line-height: 66px;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans";
+}
+
+.header_block .header_left p {
+  margin-top: 0 !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #667085;
+}
+.header_block .header_left h1 span {
+  color: #0168ff;
+  font-size: 58px;
+  line-height: 66px;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans";
+}
+
+.header_features {
+  margin-top: 48px !important;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.header_features div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_features div h2 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  /* or 119% */
+  text-transform: lowercase;
+  color: #03053a;
+}
+
+/** path section **/
+section.path {
+  max-width: 1090px;
+  margin: 0 auto !important;
+}
+section.path .titles {
+  max-width: 452px;
+  margin: 128px auto;
+}
+section.path .titles h3 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 47px;
+  /* identical to box height, or 138% */
+  text-align: center;
+  letter-spacing: -2px;
+  color: #0168ff;
+  margin-bottom: 0;
+}
+section.path .titles p {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 28px;
+  /* or 133% */
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #090914;
+}
+
+.paths {
+  display: flex;
+  justify-content: space-between;
+}
+.paths svg {
+  max-width: 238px;
+}
+
+.first_path,
+.second_path {
+  padding: 15px;
+  max-width: 514px;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 7px 26.5px -4px rgba(0, 0, 0, 0.12);
+  border-radius: 53px;
+}
+
+.first_path:hover,
+.second_path:hover {
+  border: 1px solid #4d5a64;
+}
+
+.paths h4 {
+  color: #0168ff;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 32.67px;
+}
+
+.paths p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #667085;
+}
+
+.paths a {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 26px;
+
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  color: #03053a;
+}
+
+section.request_tutorial {
+  max-width: 1090px;
+  height: 355px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 56.03px !important;
+}
+
+section.request_tutorial .gradient_Box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1090px;
+  height: 355px;
+  padding: 20px;
+  background: linear-gradient(90deg, #1f1bf0 0%, #5ddcff 100%);
+  border-radius: 42px;
+}
+
+.gradient_Box span {
+  padding-inline: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #ffffff;
+  background: #53bbfd;
+  border-radius: 8px;
+}
+.gradient_Box h4 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 129%;
+  /* or 34px */
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.gradient_box_bg {
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/Ellipse.svg"), url("../images/image.svg");
+
+  background-repeat: no-repeat, no-repeat;
+  background-position:  20px, 120%;
+}
