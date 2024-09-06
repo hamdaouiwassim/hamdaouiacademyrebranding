@@ -25,7 +25,7 @@
   height: 46.27px;
 }
 
-.buttons .new_account,
+.buttons .new_account,.contact_btn,
 .buttons .see_tutorials {
 }
 .buttons {
@@ -71,4 +71,44 @@
 }
 .buttons .see_tutorials:hover {
   border: 1px solid #0168ff;
+}
+
+.contact_btn{
+ 
+  gap: 20px;
+  background-color: #18181b;
+  color: white;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  height: 46.27px;
+  border-radius: 60px;
+
+
+/* Bold/13px */
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+/* base/white */
+color: #FFFFFF;
+
+
+}
+.contact_btn span {
+  padding-right: 2px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.contact_btn img {
+  margin-inline: 4px;
+  width: 38px;
+  height: 38px;
 }
