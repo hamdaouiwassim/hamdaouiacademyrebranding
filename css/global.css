@@ -10,7 +10,7 @@
 body{
   
 }
-@media (min-width: 1094px)  {
+@media (min-width: 1440px)  {
 ul {
   display: flex;
   list-style-type: none;
@@ -930,7 +930,9 @@ color: #667085;
   .review_users img{
     margin-left: -10px;
   }
-
+footer{
+  padding-bottom: 76px;
+}
   footer .first_block{
     
     padding-block: 63px;
@@ -975,7 +977,7 @@ color: #667085;
     
   }
   footer .second_block .about_1 p{
-   max-width: 526px;
+   max-width: 626px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -1009,6 +1011,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 24px;
+
 /* or 141% */
 
 color: #03053A;
